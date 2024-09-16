@@ -32,12 +32,6 @@ body {
   display: grid;
 } 
 
-/* .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
 .description {
   line-height: 1.5rem;
   color: var(--text-light);
