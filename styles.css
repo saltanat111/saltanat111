@@ -82,6 +82,6 @@ body {
     grid-area: 1/1/1/2;
   }
 .portfolio{
-    color: aliceblue;
-   font-size: 200px;
+    background-color: var(--primary-color);
+    color: #ffffff;
 }
