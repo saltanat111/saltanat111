@@ -1,0 +1,87 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"); */
+
+:root {
+  --primary-color: #a855f7;
+  --primary-color-dark: #9333ea;
+  --secondary-color: #ca8a04;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --extra-light: #faf5ff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ .section {
+  background-color: var(--extra-light);
+}
+
+.section__container {
+  min-height: 100vh;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+} 
+
+/* .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.description {
+  line-height: 1.5rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+  color: antiquewhite;
+  margin-top: 1.2rem;
+}
+
+ .action__btns button {
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+} 
+
+.hire__me {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+.image {
+  display: grid;
+  float: left;
+}
+.container {
+    position: relative;
+  }
+ .container img {
+    margin-top: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  } 
+.image img {
+    
+  width: min(25rem, 90%);
+  border-radius: 100%;
+  position: fixed;
+  left: 50%;
+}
+  .image {
+    grid-area: 1/1/1/2;
+  }
+.portfolio{
+    color: aliceblue;
+   font-size: 200px;
+}
